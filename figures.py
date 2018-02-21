@@ -25,7 +25,7 @@ sns.pointplot(x=data['n'], y=data['time_cp2'], color='#000000', linestyles=(line
 ax.set_yscale('log')
 ax.text(4, 250, 'Cluster Picker', fontsize=10)
 ax.text(4, 3.9, 'HIV-TRACE', fontsize=10)
-ax.text(4, 0.3, 'ClusterPicker-II', fontsize=10)
+ax.text(4, 0.3, 'TreeCluster', fontsize=10)
 sns.plt.title("Execution Time (s) vs. Number of Taxa",fontsize=18,y=1.05)
 sns.plt.xlabel("Number of Taxa")
 sns.plt.ylabel("Execution Time (s)")
